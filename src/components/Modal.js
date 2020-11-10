@@ -22,7 +22,7 @@ const Modal = (props) => {
               </div>
               <div class="modal-body">
                 <p>
-                  {props.content}
+                  {props.children}
                 </p>
               </div>
               <div class="modal-footer">
